@@ -13,10 +13,10 @@ int main(void)
 	while (alx[i] != '\0')
 	{
 		_putchar(alx[i]);
-		i++
+		i++;
 	}
 
-	_putchar("\n");
+	_putchar('\n');
 
 	return (0);
 }
