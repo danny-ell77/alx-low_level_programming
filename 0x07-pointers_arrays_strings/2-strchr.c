@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * _strchr -  a function that locates a character in a string.
  * @s: some pointer s
  * @c: some character c
@@ -21,6 +21,6 @@ char *_strchr(char *s, char c)
 		return (s + i);
 	else
 		return ('\0');
-	
+
 	return (0);
 }
